@@ -1,0 +1,41 @@
+body, html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-size: 22px;
+    background-image: url("./25712-2880x1800-desktop-hd-bird-wallpaper-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    margin: auto;
+    padding-top: 1px;
+    text-align: center;
+    background-color: #e3e1e1;
+    height: 100%;
+    width: 600px;
+    opacity: 1;
+}
+.submit {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+.submit:hover {
+    background-color: royalblue;
+}
+.output2 {
+    border-color: green;
+    font-size: 30px;
+
+}
