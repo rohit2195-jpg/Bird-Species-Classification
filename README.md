@@ -10,9 +10,16 @@ Data from the dataset was split into test, train, and validation sets.
 The model currently has a 55% accuracy on the test set.
 
 ## Testing
-
+0. Clone project
+   ```angular2html
+    https://github.com/rohit2195-jpg/Bird-Species-Classification  
+    cd Bird-Species-Classification  
+   ```
 1. Start the backend of the project
     ```bash
    cd backend
-   python backend.py
-2. Start the frontend by runnnig index.html
+   python3 -m venv .venv
+   source .venv/bin/activate
+   .venv/bin/pip install -r requirements.txt
+   .venv/bin/python backend.py
+2. Start the frontend by running index.html
